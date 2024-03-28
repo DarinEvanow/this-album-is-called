@@ -11,6 +11,11 @@ export const load: any = async () => {
   //   size: "1024x1024",
   // });
 
+  // Test data
+  const response = {
+    data:[{ url: "https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg" }]
+  }
+
   const image_url = response.data[0].url;
 
   return {
